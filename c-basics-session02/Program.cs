@@ -24,7 +24,6 @@ class Program
         //Console.WriteLine(obj); 
         #endregion
 
-
         #region Question2
         //Using the Book class above, print the result of calling ToString(), Equals() (compare book with
         //itself), GetHashCode(), and GetType() on book.
@@ -98,6 +97,7 @@ class Program
         //Console.WriteLine(badInt);
         //Console.WriteLine("Invalid number"); 
         #endregion
+
         #region Question9
         //Given int pages = 464;, convert it into a string using ToString() and print its type using GetType()
         //to prove it's now a string.
@@ -105,6 +105,17 @@ class Program
         //int pages = 464;
         //string pages2 = pages.ToString();
         //Console.WriteLine(pages2.GetType()); 
+        #endregion
+
+
+        #region Question10
+        //Declare int copies = 100;. Box it into an object variable, then unbox it back into a new int
+        //variable, and print both.
+        //int copies = 100;
+        //object obj = copies;
+        //Console.WriteLine(obj);
+        //int copies2 = (int)obj;
+        //Console.WriteLine(copies2); 
         #endregion
     }
 }
