@@ -2,6 +2,7 @@
 using System.Numerics;
 using System.Runtime.Intrinsics.X86;
 using System.Timers;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 class book
 {
@@ -88,14 +89,22 @@ class Program
         #region Question8
         //Given string yearText = "2023";, convert it using int.Parse(). Then given string badText = "abc";,
         //use int.TryParse() to safely try converting it, and print "Invalid number" if it fails.
-                //string yearText = "2023";
-                //int yearInt = int.Parse(yearText);
-                //Console.WriteLine(yearInt);
-                //string badText = "abc";
-                //int badInt = 0;
-                //bool isParsed = int.TryParse(badText, out badInt);
-                //Console.WriteLine(badInt);
-                //Console.WriteLine("Invalid number"); 
+        //string yearText = "2023";
+        //int yearInt = int.Parse(yearText);
+        //Console.WriteLine(yearInt);
+        //string badText = "abc";
+        //int badInt = 0;
+        //bool isParsed = int.TryParse(badText, out badInt);
+        //Console.WriteLine(badInt);
+        //Console.WriteLine("Invalid number"); 
+        #endregion
+        #region Question9
+        //Given int pages = 464;, convert it into a string using ToString() and print its type using GetType()
+        //to prove it's now a string.
+
+        //int pages = 464;
+        //string pages2 = pages.ToString();
+        //Console.WriteLine(pages2.GetType()); 
         #endregion
     }
 }
