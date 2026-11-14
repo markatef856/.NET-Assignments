@@ -1,4 +1,6 @@
-﻿using System.Numerics;
+﻿using System.Drawing;
+using System.Numerics;
+using System.Runtime.Intrinsics.X86;
 using System.Timers;
 
 class book
@@ -81,6 +83,19 @@ class Program
         //string pagesText = "464";
         //int pages = Convert.ToInt32(pagesText);
         //Console.WriteLine(pages); 
+        #endregion
+
+        #region Question8
+        //Given string yearText = "2023";, convert it using int.Parse(). Then given string badText = "abc";,
+        //use int.TryParse() to safely try converting it, and print "Invalid number" if it fails.
+                //string yearText = "2023";
+                //int yearInt = int.Parse(yearText);
+                //Console.WriteLine(yearInt);
+                //string badText = "abc";
+                //int badInt = 0;
+                //bool isParsed = int.TryParse(badText, out badInt);
+                //Console.WriteLine(badInt);
+                //Console.WriteLine("Invalid number"); 
         #endregion
     }
 }
