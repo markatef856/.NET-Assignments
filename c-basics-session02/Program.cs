@@ -29,6 +29,12 @@ class Program
         //Console.WriteLine(book.GetType()); 
         #endregion
 
+        #region Question3
+        //int pages = "464"; is a compile time error because we are trying to assign a string value to an int variable
+        //so the correct way to assign the value would be:
+        int pages = 464;
+
+        #endregion
 
     }
 }
