@@ -33,10 +33,10 @@ class Program
         #endregion
 
         #region Question3
-//        Look at the line below.Is it a compile - time error, a runtime error, or a logical error? Fix it.
+        //Look at the line below.Is it a compile - time error, a runtime error, or a logical error? Fix it.
         //int pages = "464"; is a compile time error because we are trying to assign a string value to an int variable
         //so the correct way to assign the value would be:
-        int pages = 464;
+        //int pages = 464;
 
         #endregion
 
@@ -59,6 +59,13 @@ class Program
         //{
         //    Console.WriteLine("Done");
         //} 
+        #endregion
+
+        #region Question5
+        //Declare an int pages = 300; then store it in a double variable without using a cast.
+        //int pages = 300;
+        //double PagesDouble = pages;
+        //Console.WriteLine(PagesDouble); 
         #endregion
     }
 }
